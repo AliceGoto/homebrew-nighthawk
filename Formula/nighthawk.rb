@@ -1,26 +1,26 @@
 class Nighthawk < Formula
   desc "Security-first AI coding agent for the terminal"
   homepage "https://github.com/AliceGoto/nighthawk"
-  version "0.40.0"
+  version "0.41.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/AliceGoto/nighthawk/releases/download/v#{version}/nighthawk-darwin-arm64.zip"
-      sha256 "9916e4c15e27e27d72c24a8193385468982290906b6df47e8a9c08f150ff935a"
+      sha256 "f31c79b08df3c19f8943cdfac395f01eed30a3b082475692ecd403176bf51239"
     else
       url "https://github.com/AliceGoto/nighthawk/releases/download/v#{version}/nighthawk-darwin-x64.zip"
-      sha256 "643c153f566477622999219da7034592a013e7b56249a660ea1e8a02b56488f0"
+      sha256 "b0073ab2448d76d21183080d24150898ff716b4518b3d752b555dec2b1ccedf9"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/AliceGoto/nighthawk/releases/download/v#{version}/nighthawk-linux-arm64.zip"
-      sha256 "d87fae4dee1e9bcdbccf4332f4c0fe341358be440078571a1bf583e0c2906a14"
+      sha256 "55e92c7b5c1eb7d404ef55938aa9ddeee1c010b28810af96da65337f5a68d63c"
     else
       url "https://github.com/AliceGoto/nighthawk/releases/download/v#{version}/nighthawk-linux-x64.zip"
-      sha256 "ddd5539c3d86e2426b403a46818c13404af2678dead0b0f49a7c138d19796060"
+      sha256 "a0a21406569f3e9819933350e4937218085d4ccbafea5786e17fc04ec0f8754a"
     end
   end
 
