@@ -7,20 +7,20 @@ class Nighthawk < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/AliceGoto/nighthawk/releases/download/v#{version}/nighthawk-darwin-arm64.zip"
-      sha256 "f958657a5843f53d730bcb561c503f3583b4897285bae73e5bb53c68d66850a8"
+      sha256 "fef8548d57897b7f3732119cb0d230a91d951219fc4e6920f289a793a1fbbbcd"
     else
       url "https://github.com/AliceGoto/nighthawk/releases/download/v#{version}/nighthawk-darwin-x64.zip"
-      sha256 "c23677d8a32dbb81c684e42897f9d602cf3ba392476ce69959a24ce006e22aca"
+      sha256 "29d668ba0d41f263c472770147335687296358485906274a5580e2378d0780e4"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/AliceGoto/nighthawk/releases/download/v#{version}/nighthawk-linux-arm64.zip"
-      sha256 "c09c5fe816dc4cbe33e68f6e26aa1832073a1f59ca91c0470226ab61c01d8b41"
+      sha256 "2ccbe09af5a4294b234dd45a4cd0da7150e820f1cbd2a9864b810b218a79b753"
     else
       url "https://github.com/AliceGoto/nighthawk/releases/download/v#{version}/nighthawk-linux-x64.zip"
-      sha256 "9598718df0f8e717fb68d941e2027a787c5becdb8bcc19f4432c563630f0eb40"
+      sha256 "13473ccc45791283c673a83440974484ccf3da692e808c6ff0d059a9f41e8906"
     end
   end
 
