@@ -8,7 +8,7 @@ class Nighthawk < Formula
   depends_on arch: :arm64
 
   url "https://github.com/AliceGoto/nighthawk/releases/download/v#{version}/nighthawk-darwin-arm64.zip"
-  sha256 "10980c8c57798cf2da5707222b330c3e138baab89868a4f1014de7c1a04f7e7e"
+  sha256 "13f091afd59a4dad4c5f0dcbf0562e85993b091b42d046a7e45c30644ca66ddf"
 
   def install
     bin.install "nighthawk"
